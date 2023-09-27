@@ -24,7 +24,7 @@ nav{
     padding: 15px;
     position: sticky;
     top: 0;
-    background: transparent;
+    background: #17181d;
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +38,7 @@ nav{
     color: #f1f2f6;
 }
 
-nav button{
+nav .button_holder .hire{
     width:70px;
     height: 23px;
     font-weight: 500;
@@ -269,6 +269,11 @@ form{
     outline: none;
     cursor: pointer;
 }
+footer{
+    width: 100%;
+    height: 20px;
+    padding-top: 50px;
+}
 footer h6{
     text-align: center;
     padding: 20px;
@@ -279,11 +284,14 @@ footer h6{
     border-top: 1px solid #f1f2f638;
     margin: 0 05%;
     border-radius: 1px;
-
 }
 
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 768px){
     .list ul li{
         display:none;
+    }
+    .button_bar{
+        display: block;
     }
 }
