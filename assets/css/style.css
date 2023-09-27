@@ -269,6 +269,18 @@ form{
     outline: none;
     cursor: pointer;
 }
+footer h6{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #f1f2f6;
+    font-size: 16px;
+    font-weight: 300;
+    border-top: 1px solid #f1f2f638;
+    margin: 0 05%;
+    border-radius: 1px;
+
+}
 
 @media only screen and (max-width: 600px){
     .list ul li{
